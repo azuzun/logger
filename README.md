@@ -15,8 +15,6 @@ Closing Files
 if (!keystrokeFile.is_open())
  checks whether the file `keystrokes.txt` was opened.
 
-Let's break it down:
-
 - `keystrokeFile.is_open()`:
 member function of the `ofstream` class,
 which returns `true`
